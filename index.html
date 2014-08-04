@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <link rel="icon" type="image/png" href="http://brightrain.com/images/brsSun.png">
+    <title>VRE Way Finder</title>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
+    <link href='style/vre.css' rel='stylesheet' />
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
+    <script src="js/vre.js"></script>
+</head>
+<body>
+    <div id='sidebar' class='pad2'>
+        <img id="vre-logo" src="http://www.vre.org/images/vre_header_logo.jpg" />
+        <!--<div class="vre-title">Virginia Railway Express</div>
+        <div class="vre-header">System and Station Information </div>-->
+        <div class="vre-section">
+            <!--<div class="vre-meta">* clicking a station on the map displays station details here</div>-->
+                <h4>Alexandria Station</h4>
+                <div class="img">
+                    <img alt="alexandria station" src="http://www.vre.org/graphics/stationphotos/alx.jpg" style="height:60%;width:60%;"></img>
+                </div>
+                <div class="address">
+                    <span class="bold"></span>
+                        <div>110 Callahan Drive<br></br>Alexandria, VA 22301</div>
+                </div>
+            <p class="bold"></p>
+            <ul>
+                <li>
+                    <a href="../vendor1.htm#alex"></a>
+                     vendor near this location
+                </li>
+                <li>
+                    Close to 
+                    <a href="../connections.htm">local transit connections</a>
+                </li>
+                <li>Designated stop for 
+                    <a href="../crosshonor.html"></a>
+                     Trains
+                </li>
+                <li>
+                    Newspaper racks
+                </li>
+                <li>
+                    Pay phones 
+                </li>
+                <li>
+                    Platform is ADA accessible
+                </li>
+                <li>
+                    Serves both the 
+                    <a href="../schedule.htm">
+                        Fredericksburg and Manassas Line
+                    </a>
+                </li>
+                <li>
+                    Ticket Vending Machines
+                </li>
+            </ul>
+            <p>
+                <strong>*There is no parking available at this station.</strong>
+            </p>
+        </div>
+        <div class="vre-section">Trip Planner
+            <div class="vre-meta">* clicking a station on the map selects it as the Start station</div></div>
+        <div class="vre-section">Real-Time Departures and Arrivals
+            <div class="vre-meta">* clicking a station on the map displays departure and arrival times</div></div>
+    </div>
+    <div id='map' class='map pad2'></div>
+</body>
+</html>

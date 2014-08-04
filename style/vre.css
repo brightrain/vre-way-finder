@@ -1,0 +1,49 @@
+html, body {
+    width:100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+body {
+    font:500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;   
+}
+.map {
+    border-left:1px solid #fff;
+    position:absolute;
+    left:40%;
+    width:60%;
+    top:0;
+    bottom:0;
+}
+.pad2 {
+  padding:20px;
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+          box-sizing:border-box;
+  }
+#sidebar {
+    width: 40%;   
+}
+#vre-logo
+{
+    float:left;   
+}
+.vre-title {
+    font-size: 28px;
+    padding: 10px;
+}
+.vre-header {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 800;
+}
+.vre-section {
+    font-size: 18px;
+    padding: 12px;
+    border-bottom: 1px grey dotted;
+}
+.vre-meta {
+    font-size:12px;
+    font-style: italic;
+    color:grey;
+}
